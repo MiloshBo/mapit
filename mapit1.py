@@ -14,9 +14,9 @@ def my_func(get_add):
     webbrowser.open('https://www.google.com/maps/place/' + address)
 	
 def test_it(args):
-	print(args[1:])
-	my_func(args[1:])
+    print(args)
+    my_func(args)
 
 if __name__ == '__main__':
-	client = input("Hi! Please add any address you want to see on map: ")
-	test_it(client)
+    client = input("Hi! Please add any address you want to see on map: ")
+    test_it(client)
