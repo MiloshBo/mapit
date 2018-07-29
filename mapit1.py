@@ -18,5 +18,5 @@ def test_it(args):
 	my_func(args[1:])
 
 if __name__ == '__main__':
-	test_it(sys.argv)
-	
+	client = input("Hi! Please add any address you want to see on map: ")
+	test_it(client)
