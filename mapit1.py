@@ -3,7 +3,7 @@
 # command line or clipboard.
 
 import webbrowser, sys, pyperclip
-def my_func(get_add):
+def my_func(client):
     if len(sys.argv) > 1:
 	    # Get address from command line
 	    address = ' '.join(get_add)
