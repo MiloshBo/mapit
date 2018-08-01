@@ -6,7 +6,7 @@ import webbrowser, sys, pyperclip
 def my_func(client):
     if len(sys.argv) > 1:
 	    # Get address from command line
-	    address = ' '.join(get_add)
+	    address = ' '.join(get_add.split('+'))
     else:
 	    # Get address from clipboard
 	    address = pyperclip.paste()
